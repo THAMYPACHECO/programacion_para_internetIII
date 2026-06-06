@@ -69,7 +69,7 @@
 
     <?php
     //Procesamiento de backend 
-    if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["registrar_salida"])) {
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         $conductor = ($_POST['conductor']);
         $codigo = ($_POST['codigo']);
